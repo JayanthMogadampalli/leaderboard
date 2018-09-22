@@ -28,10 +28,10 @@
 
 <div class="row" id="one">
          
-         <div class="col-lg-1" id="y">
+         <div class="col-lg-2" id="y">
             <span>ID</span>   
           </div>
-          <div class="col-lg-2" id="y">
+          <div class="col-lg-3" id="y">
                <span>IMAGE</span>         
           </div>
         <div class="col-lg-2" id="y">
@@ -48,12 +48,12 @@
         </div>
   </div> 
       <% Leader.forEach(function(user){  %>
-      <div class="row">
-       <div class="col-lg-1">
+      <div class="row" id="r2">
+       <div class="col-lg-2">
        
         <span  class="block"><%=user.id%></span>
       </div>
-       <div class="col-lg-2">
+       <div class="col-lg-3">
         <span><img src="/stylesheets/<%=user.image%>" id="logo">
         </span>
        </div>
@@ -78,6 +78,8 @@
      </div>
   </div>
   <% }); %>
+  <div id="mb">
+  </div>
 
   
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>                                                                   

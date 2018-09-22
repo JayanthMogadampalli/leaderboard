@@ -2,19 +2,19 @@
 #one{
 	margin-top: 80px;
 	padding:5px 10px 5px 0px;
+	border-bottom:1px solid #f3f3f3!important;
+	border-radius: 3px;
 
 }
 .row{
 	padding: 30px 10px 25px 0px; 
 	margin-bottom: 0px;
-	border-radius: 5px;
-	margin-left:50px;
+	border-radius: 2px;
+	margin-left:140px;
 	margin-right:80px;
-	border:;
+	border:none;
 }
-.col{
-	padding-right: 0px;
-}
+
 .block{
 	display: block;
 	
@@ -22,6 +22,13 @@
 
 .l1{
 	color:#000;
+}
+#r2{
+	border-bottom:1px solid #f3f3f3!important;
+	height:100px;
+}
+#mb{
+	margin-top: 50px;
 }
 
 #logo{
